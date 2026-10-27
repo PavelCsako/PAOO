@@ -1,0 +1,5 @@
+# Directoarele de build generate de CMake nu se pun în repository
+build/
+build-*/
+install/
+.vscode/
