@@ -6,4 +6,4 @@ Temele de laborator (Linux, gcc, CMake, Git).
 |------|---------|
 | [Tema1](Tema1/) | încapsulare, inițializarea membrilor, destructor, copy constructor, move constructor |
 | [Tema2](Tema2/) | Effective C++: Item 4 (inițializarea obiectelor), Item 5 (funcțiile generate de compilator), Item 6 (interzicerea lor) |
-| [Tema3](Tema3/) | Effective C++: Item 10–12 (operator=: return *this, autoatribuire, copierea tuturor părților) + move assignment |
+| [Tema3](Tema3/) | Effective C++: Item 10–12 (operator=: return *this, autoatribuire, copierea tuturor părților) + move assignment, Item 13–14 (RAII, copierea claselor care gestionează resurse) |

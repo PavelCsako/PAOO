@@ -24,7 +24,12 @@ set(myfiles
     src/item11.cpp
     src/exemple_item12.hpp
     src/item12.cpp
-    src/mutare.cpp)
+    src/mutare.cpp
+
+    # Lucrarea 6: Item 13, 14
+    src/item13.cpp
+    src/exemple_item14.hpp
+    src/item14.cpp)
 
 add_executable(${PROJECT_NAME} ${myfiles})
 

@@ -12,6 +12,10 @@ void demonstreazaItem11();          // item11.cpp
 void demonstreazaItem12();          // item12.cpp
 void demonstreazaMutarea();         // mutare.cpp (move assignment, C++11)
 
+// Lucrarea 6
+void demonstreazaItem13();          // item13.cpp
+void demonstreazaItem14();          // item14.cpp
+
 // Utilitare pentru afișare (main.cpp)
 void titlu(const std::string& text);
 void subtitlu(const std::string& text);

@@ -12,7 +12,14 @@ set(myfiles
     # Lucrarea 5: Item 10, 11, 12 (+ move assignment)
     src/Bitmap.cpp              inc/galerie/Bitmap.hpp
     src/Imagine.cpp             inc/galerie/Imagine.hpp
-    src/ImagineCuFiltru.cpp     inc/galerie/ImagineCuFiltru.hpp)
+    src/ImagineCuFiltru.cpp     inc/galerie/ImagineCuFiltru.hpp
+
+    # Lucrarea 6: Item 13, 14
+    src/Fabrica.cpp             inc/galerie/Fabrica.hpp
+    src/Mutex.cpp               inc/galerie/Mutex.hpp
+    src/Lacat.cpp               inc/galerie/Lacat.hpp
+    src/LacatPartajat.cpp       inc/galerie/LacatPartajat.hpp
+    src/LacatTransferabil.cpp   inc/galerie/LacatTransferabil.hpp)
 
 # Biblioteca statică => libgalerie.a
 add_library(${PROJECT_NAME} STATIC ${myfiles})
